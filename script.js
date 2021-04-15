@@ -14,4 +14,5 @@ const currentTime = () => {
 
 };
 
+//call the function
 setInterval(currentTime, 1000);
