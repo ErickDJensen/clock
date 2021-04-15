@@ -1,0 +1,1 @@
+This is just a simple clock project that I made using JavaScript. I added a color transitioning background to make it fun. This is my first time using setInterval, cool watching it come to life!

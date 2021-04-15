@@ -7,11 +7,10 @@ const currentTime = () => {
     const minutes = now.getMinutes();
     const seconds = now.getSeconds();
 
-    const html = `The current time is ${hours}:${minutes}:${seconds}`;
+    const html = `<h1>The current time is</h1> <h2>${hours}:${minutes}:${seconds}</h2>`;
     clock.innerHTML = html;
 
     console.log(hours, minutes, seconds);
-
 
 };
 

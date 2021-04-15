@@ -1,3 +1,48 @@
-* {
-    background: pink;
+body {
+	animation-name: backgroundColorPalette;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: red;
+	}
+	17% {
+		background: orange;
+	}
+	34% {
+		background: yellow;
+	}
+	51% {
+		background: green;
+	}
+	68% {
+		background: blue;
+    }
+    85% {
+		background: indigo;
+    }
+    100% {
+		background: violet;
+	}
+}
+
+
+.clock {
+    text-align: center;
+    margin: 250px auto;
+    -webkit-text-stroke: 2px black; /* width and color */
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 7em;
+    margin-top: -20px;
 }
